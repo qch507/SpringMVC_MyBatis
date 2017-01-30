@@ -1,4 +1,4 @@
-package com.example.springmybatis.pojo;
+package com.qiuch.springmybatis.pojo;
 
 import java.util.Date;
 

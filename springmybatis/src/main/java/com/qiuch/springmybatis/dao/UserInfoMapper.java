@@ -1,6 +1,6 @@
-package com.example.springmybatis.dao;
+package com.qiuch.springmybatis.dao;
 
-import com.example.springmybatis.pojo.UserInfo;
+import com.qiuch.springmybatis.pojo.UserInfo;
 
 public interface UserInfoMapper {
     int deleteByPrimaryKey(Long id);

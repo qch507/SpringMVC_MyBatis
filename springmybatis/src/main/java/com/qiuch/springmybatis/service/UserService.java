@@ -1,4 +1,4 @@
-package com.example.springmybatis.service;
+package com.qiuch.springmybatis.service;
 
 import java.util.Date;
 
@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.springmybatis.dao.UserInfoMapper;
-import com.example.springmybatis.pojo.UserInfo;
+import com.qiuch.springmybatis.dao.UserInfoMapper;
+import com.qiuch.springmybatis.pojo.UserInfo;
 
-@Service("categoryService")
+@Service("userService")
 @Transactional(readOnly = true, propagation = Propagation.SUPPORTS)
 public class UserService {
 
